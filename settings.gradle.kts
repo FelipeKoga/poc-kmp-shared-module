@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "poc-kmp-submodule"
 include(":shared")
+include(":analytics")
