@@ -43,7 +43,6 @@ kotlin {
         }
 
         jsMain.dependencies {
-            implementation(libs.kotlin.coroutines.js)
         }
 
         commonTest.dependencies {
