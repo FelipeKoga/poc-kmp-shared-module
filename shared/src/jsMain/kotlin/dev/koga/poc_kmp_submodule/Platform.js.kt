@@ -7,3 +7,9 @@ actual fun getPlatform(): Platform {
 
     }
 }
+
+@OptIn(ExperimentalJsExport::class)
+@JsExport
+fun greet(name: String): String {
+    return "Hello, $name"
+}
