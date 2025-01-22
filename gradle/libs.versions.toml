@@ -13,6 +13,8 @@ compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = 
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
 compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.10.1" }
+kotlin-coroutines-js = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-js", version = "1.10.1" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

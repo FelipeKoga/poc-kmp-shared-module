@@ -39,6 +39,11 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation(libs.kotlin.coroutines)
+        }
+
+        jsMain.dependencies {
+            implementation(libs.kotlin.coroutines.js)
         }
 
         commonTest.dependencies {
