@@ -23,6 +23,7 @@ kotlin {
     js(IR) {
         browser()
         binaries.library()
+        generateTypeScriptDefinitions()
     }
 
     cocoapods {
