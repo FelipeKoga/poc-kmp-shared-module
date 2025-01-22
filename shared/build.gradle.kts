@@ -38,8 +38,6 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            api(projects.analytics)
-            implementation(projects.internal)
         }
 
         commonTest.dependencies {
