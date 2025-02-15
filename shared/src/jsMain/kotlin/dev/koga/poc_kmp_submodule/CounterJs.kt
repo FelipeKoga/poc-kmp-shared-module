@@ -4,6 +4,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 
 @JsExport()
+@JsName("CounterJs")
 class CounterJs {
     private val counter = Counter()
 
