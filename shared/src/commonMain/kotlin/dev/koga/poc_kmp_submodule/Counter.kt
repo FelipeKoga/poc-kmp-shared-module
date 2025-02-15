@@ -3,18 +3,13 @@ package dev.koga.poc_kmp_submodule
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlin.js.JsExport
 
-
-@OptIn(ExperimentalJsExport::class)
-@JsExport
 class Counter {
-
-    private val _state = MutableStateFlow(0)
-    val state = _state.asStateFlow()
+    private val _counter = MutableStateFlow(0)
+    val counter = _counter.asStateFlow()
 
     fun increment() {
-        _state.update {
-            it + 1
-        }
+        _counter.update { it + 1 }
     }
 }
